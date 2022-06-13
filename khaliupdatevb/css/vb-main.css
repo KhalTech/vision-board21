@@ -1,0 +1,131 @@
+body {
+	background: #E8E8E8; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#vision-board {
+	overflow:auto;
+	background-image: url('../img/glowing_nebula.jpg');
+    background-position: center;
+    background: cover;
+	text-transform: uppercase;
+    font-family: 'lora';
+}
+
+.block {
+	float: left;
+	box-sizing: border-box;
+	width: 400px;
+}
+
+.small-block {
+	height: 240px;
+}
+
+.light-bg {
+    background-color: #ffffff;
+}
+
+h1 span { 
+    font-family: 'rock salt';
+}
+
+.highlight {
+    background-color: #ffff80;
+}
+
+.center {
+	text-align: center;
+}
+
+#s2 {
+    position: relative;
+}
+    #moneybag {
+        position: absolute;
+        /*Center Vertically*/
+        top: 37%;
+        left: 30%;
+        margin-top: -120px 0 0 -115px;
+    }
+
+    #s3 {
+        position: relative;
+    }
+        #s3 p {
+            position: absolute;
+            /*Center Vertically*/
+            top: 20%;
+            left: 30%;
+            margin-top: -120px 0 0 -115px;
+        }
+
+.large-block {
+	height: 400px;
+}
+
+.accent-text p {
+    color: white; 
+}
+
+.accent-bg {
+    background-color: rgba(128, 204, 255, 0.5); 
+    align-items: center;
+}
+
+header span {
+    font-family: 'rock salt';
+}
+
+p span {
+    font-family: 'eb garamond';
+    color: #ff6666;
+}
+
+#s7 {
+    position: relative;
+}
+
+    #s7 p {
+        width: 230px;
+        height: 240px;
+        /*Center Vertically*/
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        margin-top: -120px 0 0 -115px;
+    }
+
+    #s7 img {
+        width: 165px;
+        height: 150px;
+        /*Center Vertically*/
+        position: absolute;
+        top: 30%;
+        left: 55%; 
+        margin-top: -75px 0 0 -83px;
+    }
+
+#s8{
+    position: relative; 
+}
+    #s8 p {
+        width: 230px;
+        height: 240px;
+        /*Center Vertically*/
+        position: absolute;
+        top: 20%;
+        left: 22%;
+        margin-top: -120px 0 0 -115px;
+    }
+
+.right {
+	text-align: right;
+}
+
+#prayinghands {
+    float: right;
+    overflow: auto;
+}
